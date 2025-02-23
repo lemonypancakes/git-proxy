@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Proxy</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (window.location.pathname !== "/") {
+                window.location.href = "https://github.com/lemonypancakes" + window.location.pathname;
+            }
+        });
+    </script>
+</head>
+<body>
+    <pre>
+Git Repository Proxy - git.lemonypancakes.me
+
+This provides a shorthand URL for accessing GitHub repositories.
+
+Repositories are hosted at:
+https://github.com/lemonypancakes/
+    </pre>
+</body>
+</html>
